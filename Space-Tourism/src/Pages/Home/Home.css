@@ -1,0 +1,112 @@
+#root{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+body{
+    min-height: 100vh;
+    background: url("../../assets/home/background-home-desktop.jpg") center/cover no-repeat;
+}
+
+.main{
+    width: 100vw;
+}
+
+.main .navbar .logo{
+    margin: 10px 20px;
+    padding-top: 30px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .line {
+    background: rgba(110, 108, 108, 0.216);
+    height: 2px;
+    margin-top: 60px;
+    width: 25rem;
+    position: absolute;
+    left: 8.5rem;
+
+}
+
+.navbar .nav{
+    background: rgba(110, 108, 108, 0.216);
+    margin-top: 20px;
+    padding: 15px 65px 15px 0;
+    width: 55vw;
+}
+
+.navbar .nav .navbar-nav{
+    display: flex;
+    margin-left: 80px;
+}
+
+.navbar .nav .nav-items{
+    list-style: none;
+}
+
+
+.navbar .nav .nav-items a{
+    margin-right: 40px;
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid white;
+    padding-bottom: 30px;
+}
+
+.navbar .nav .nav-items .bold{
+    font-weight: 900;
+    padding-right: 10px;
+}
+
+.body-text{
+    margin: 10rem 0 0 9rem;
+    color: white;
+}
+
+.body-text .travel-text{
+    font-size: 25px;
+}
+
+.body-text .space-text{
+    margin: 20px 0 40px;
+    font-size: 130px;
+}
+
+.body-text .txt{
+    margin-bottom: 0;
+    width: 26rem;
+    line-height: 30px;
+}
+
+.message-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.message-body .explore-text{
+    color: black;
+    text-align: center;
+    background: white;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 50rem;
+    font-size: 30px;
+    position: absolute;
+    right: 10rem;
+    bottom: 5rem;
+}
+
+.explore-text .txt-exp{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
